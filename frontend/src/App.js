@@ -417,16 +417,18 @@ const SkillsSection = () => {
 const PublicationsSection = () => {
   const publications = [
     {
-      title: "Advanced Machine Learning Approaches for Healthcare Data Analytics",
-      conference: "IEEE International Conference on Data Analytics",
-      year: "2024",
-      description: "Comprehensive study on applying ML algorithms to healthcare data for predictive analytics and patient outcome optimization."
+      title: "PAYV - Payment Voice: A Platform using Voice Recognition to Enable Payment Transactions",
+      conference: "IEEE Conference Publication",
+      year: "July 2024",
+      description: "Developed novel virtual voice assistant with multi-modal biometric authentication, enhancing payment accessibility for disabled individuals. Featured advanced NLP, face recognition, and fingerprint technologies.",
+      link: "https://ieeexplore.ieee.org/document/10673442"
     },
     {
-      title: "Real-time Fraud Detection Using Ensemble Learning Methods",
-      conference: "IEEE Conference on Computational Intelligence",
-      year: "2023",
-      description: "Novel approach to real-time fraud detection combining multiple ML algorithms for enhanced accuracy and reduced false positives."
+      title: "iAssist: An online wellness platform to elevate the physical and mental health of the elderly",
+      conference: "IEEE Conference Publication",
+      year: "December 2022",
+      description: "Created comprehensive healthcare management system serving elderly population with integrated appointment scheduling, medication management, and caregiver support features.",
+      link: "https://ieeexplore.ieee.org/document/10119367"
     }
   ];
 
