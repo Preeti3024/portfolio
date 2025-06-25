@@ -539,7 +539,7 @@ const ContactSection = () => {
 
           <motion.div variants={fadeInUp}>
             <motion.a
-              href="mailto:preethika@example.com"
+              href="mailto:preetikpati13@gmail.com"
               className="inline-block px-12 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
