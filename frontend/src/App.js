@@ -120,10 +120,10 @@ const HeroSection = () => {
             variants={fadeInUp}
             className="text-6xl md:text-8xl font-bold text-white leading-tight"
           >
-            ML/AI
+            Preethika
             <br />
             <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              Engineer
+              Kambampati
             </span>
           </motion.h1>
           
