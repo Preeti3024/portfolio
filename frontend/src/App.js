@@ -166,25 +166,40 @@ const HeroSection = () => {
 const WorkSection = () => {
   const projects = [
     {
-      title: "Healthcare Management System",
-      description: "AI-powered comprehensive healthcare management system with integrated appointment scheduling and real-time analytics.",
+      title: "PAYV – Payment Voice (Major Project)",
+      description: "Voice-driven mobile app enabling secure transactions for seniors & accessibility-challenged. Developed backend database using SQLite & secured payment transaction system using Python & Flutter.",
       image: "https://images.unsplash.com/photo-1605764949006-10d0e9e1437c",
-      tech: ["Python", "TensorFlow", "React", "MongoDB"],
-      link: "#"
+      tech: ["Flutter", "Python", "SQLite", "Flask", "Firebase", "Apache Flink"],
+      period: "Oct 2023 – March 2024",
+      link: "https://github.com/Preeti3024/payvfinal",
+      status: "IEEE Explore Conference - Published"
     },
     {
-      title: "Real-time Fraud Detection",
-      description: "Machine learning model for real-time fraud detection with 98% accuracy, processing millions of transactions daily.",
+      title: "Indian Sign Language Recognition",
+      description: "A working ISLR System to aid communication for the physically challenged. Developed frontend using React.js and integrated it with backend using Flask.",
       image: "https://images.pexels.com/photos/1555177/pexels-photo-1555177.jpeg",
-      tech: ["Python", "Scikit-learn", "Apache Kafka", "PostgreSQL"],
-      link: "#"
+      tech: ["Python", "React.js", "Flask", "Kafka", "Kaggle Dataset"],
+      period: "Jun 2023 - Oct 2023",
+      link: "https://github.com/Preeti3024/ISL/tree/master",
+      status: "Mini-Project"
     },
     {
-      title: "Predictive Analytics Platform",
-      description: "End-to-end data analytics platform for predicting market trends with advanced ML algorithms.",
+      title: "Women Corner",
+      description: "Website offers education and resources for managing menstrual difficulties with cycle calculation. Developed an authentication system, worked on frontend with a 3D effect and other pages.",
       image: "https://images.unsplash.com/photo-1593376893114-1aed528d80cf",
-      tech: ["Python", "TensorFlow", "FastAPI", "React"],
-      link: "#"
+      tech: ["Angular", "Firebase", "3D Effect"],
+      period: "Feb 2022 – Jun 2022",
+      link: "https://women-corner.web.app/signin",
+      status: "W-accinge Hackathon"
+    },
+    {
+      title: "Bridging Gap",
+      description: "Website that centralizes various aspects of senior citizen care, such as scheduling lab tests, ordering medications, and scheduling doctor's appointments & updates users via WhatsApp and a chatbot component.",
+      image: "https://images.unsplash.com/photo-1664854953181-b12e6dda8b7c",
+      tech: ["Angular", "Firebase", "HTML", "Zapier", "Twilio"],
+      period: "Dec 2021 – Mar 2022",
+      link: "https://bridging-gaps-677a5.web.app/signin",
+      status: "IEEE Explore Conference - Published"
     }
   ];
 
