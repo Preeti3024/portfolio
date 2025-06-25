@@ -238,7 +238,13 @@ const WorkSection = () => {
                 </div>
                 
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-3">{project.title}</h3>
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-xl font-bold text-white">{project.title}</h3>
+                    <span className="text-xs text-blue-400 bg-blue-400/10 px-2 py-1 rounded-full">
+                      {project.status}
+                    </span>
+                  </div>
+                  <p className="text-sm text-gray-500 mb-3">{project.period}</p>
                   <p className="text-gray-400 mb-4 leading-relaxed">{project.description}</p>
                   
                   <div className="flex flex-wrap gap-2 mb-4">
@@ -251,6 +257,8 @@ const WorkSection = () => {
                   
                   <motion.a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-300"
                     whileHover={{ x: 5 }}
                   >
