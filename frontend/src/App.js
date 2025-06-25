@@ -508,7 +508,7 @@ const ContactSection = () => {
 
           <motion.div variants={fadeInUp} className="flex justify-center space-x-8 mb-12">
             <motion.a
-              href="mailto:preethika@example.com"
+              href="mailto:preetikpati13@gmail.com"
               className="flex items-center space-x-3 text-gray-300 hover:text-white transition-colors duration-300"
               whileHover={{ scale: 1.05 }}
             >
@@ -516,7 +516,9 @@ const ContactSection = () => {
               <span className="text-lg">Email</span>
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/preethika-kambampati"
+              href="https://www.linkedin.com/in/preethika-k-658872206/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center space-x-3 text-gray-300 hover:text-white transition-colors duration-300"
               whileHover={{ scale: 1.05 }}
             >
@@ -524,7 +526,9 @@ const ContactSection = () => {
               <span className="text-lg">LinkedIn</span>
             </motion.a>
             <motion.a
-              href="https://github.com/preethika-kambampati"
+              href="https://github.com/Preeti3024"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center space-x-3 text-gray-300 hover:text-white transition-colors duration-300"
               whileHover={{ scale: 1.05 }}
             >
