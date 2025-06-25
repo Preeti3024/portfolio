@@ -457,11 +457,24 @@ const PublicationsSection = () => {
                 className="bg-black p-8 rounded-lg hover:bg-gray-800 transition-colors duration-300"
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                  <h3 className="text-2xl font-bold text-white mb-2 md:mb-0">{pub.title}</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2 md:mb-0 hover:text-blue-400 transition-colors duration-300">
+                    <a href={pub.link} target="_blank" rel="noopener noreferrer">
+                      {pub.title}
+                    </a>
+                  </h3>
                   <span className="text-blue-400 font-semibold">{pub.year}</span>
                 </div>
                 <p className="text-lg text-gray-400 mb-4">{pub.conference}</p>
-                <p className="text-gray-300 leading-relaxed">{pub.description}</p>
+                <p className="text-gray-300 leading-relaxed mb-4">{pub.description}</p>
+                <motion.a
+                  href={pub.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-300"
+                  whileHover={{ x: 5 }}
+                >
+                  Read Paper <FaExternalLinkAlt className="ml-2" />
+                </motion.a>
               </motion.div>
             ))}
           </div>
